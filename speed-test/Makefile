@@ -5,7 +5,7 @@
 CC=gcc
 CFLAGS +=-Wextra -Wall -pedantic -pie -fPIE -O2 -Wno-variadic-macros
 #Hardening
-CFLAGS +=-D_FORTIFY_SOURCE=2 -fstack-protector-strong -fwrapv --param ssp-buffer-size=4
+CFLAGS +=-D_FORTIFY_SOURCE=2 -fwrapv --param ssp-buffer-size=4
 LDFLAGS +=-Wl,-z,relro,-z,now
 
 NAME := kcapi-speed
