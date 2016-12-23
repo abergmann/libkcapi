@@ -1218,7 +1218,7 @@ enum kcapi_verbosity {
 	LOG_ERR,
 	LOG_WARN,
 	LOG_VERBOSE,
-	LOG_DEBUG,
+	LOG_DEBUG
 };
 
 /**
