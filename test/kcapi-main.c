@@ -440,7 +440,7 @@ enum type {
 	KDF_DPI,
 	PBKDF,
 	SYM_AIO,
-	AEAD_AIO,
+	AEAD_AIO
 };
 
 struct kcapi_cavs {
